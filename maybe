@@ -1,0 +1,29 @@
+.btn {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.approve-btn {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+.reject-btn {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.approve-btn:hover,
+.reject-btn:hover {
+  opacity: 0.8;
+}
+
+.approve-btn:focus,
+.reject-btn:focus {
+  outline: none;
+}
